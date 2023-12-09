@@ -32,21 +32,16 @@ html {
   font-family: "Roboto", sans-serif;
 }
 body {
-  background-blend-mode: multiply;
-  
+  background-blend-mode: multiply;  
   background-image: url(img/bg.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-  
-  background-color: rgb(27, 29, 60, 0.8);
+  background-color: rgb(27 29 60 / 80%);
   width: 100%;
   height: 100%;
 }
 
-.bg {
-  
-}
 
 .wrapper {
   width: calc(100% - 90px);
@@ -154,8 +149,7 @@ nav .nav-list {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   padding: 15px 50px;
-  display: block;
-  transition: all 0.3s ease-in;
+ 
 }
 .block-img {
   margin-top: 5rem;
@@ -183,7 +177,7 @@ nav .nav-list {
 }
 
 .social {
-  background-color: #F8CE4E;
+  background-color:var(--main-color);
   width: 237px;
   height: 35px;
   border-bottom-left-radius: 5px;
@@ -193,8 +187,4 @@ nav .nav-list {
   padding: 10px;
   padding-top: 5px;
 }
-.twit{
-}
-.fas{
-  
-}
+
